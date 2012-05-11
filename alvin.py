@@ -43,13 +43,18 @@ if __name__ == '__main__':
   print ""
  
   while (1==1): # Loop de entrada de dados.
-      
-   frase = raw_input("bot:"+CorVerde+"< "+CorOrig) 				# cor vermelha na escrita.	
-   print "bot:"+CorAzul+">"+CorOrig+" %s" % ai.respond(frase) 	# cor verde escrita.
-   print ""
-
-   # Se voz ativada gera pronuncia da resposta do dialogo.
-   if vozAtiva == 1:
-     if len(ai.respond(frase)) > 0:
-       voz(tiraAcento(ai.respond(frase))) # Chama rotina de pronuncia.
+	try:
+		frase = raw_input("bot:"+CorVerde+"< "+CorOrig) 				# cor vermelha na escrita.	
+		print "bot:"+CorAzul+">"+CorOrig+" %s" % ai.respond(frase) 	# cor verde escrita.
+		print ""
+		
+		# Se voz ativada gera pronuncia da resposta do dialogo.
+		if vozAtiva == 1:
+			if len(ai.respond(frase)) > 0:
+				voz(tiraAcento(ai.respond(frase))) # Chama rotina de pronuncia.
+		if frase == "quit":
+			sys.exit()
+	except:
+		frase = False
+		sys.exit()
 

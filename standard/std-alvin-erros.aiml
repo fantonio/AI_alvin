@@ -11,28 +11,36 @@
 <meta name="language" content="en"/>
 
 <category>
-<pattern>RSRS *</pattern>
-<template>
-  <random>
-    <li>Pelo jeito voce esta feliz.</li>
-    <li>Voce esta rindo de mim ou para mim?</li>
-    <li>Quero rir tambem me conte uma piada.</li>
-    <li>Voce sabia que rir faz bem a saude.</li>
-  </random>
-</template>
+	<pattern>RSRS *</pattern>
+		<template>
+			<random>	
+				<li>Pelo jeito voce esta feliz.</li>
+				<li>Voce esta rindo de mim ou para mim?</li>
+				<li>Quero rir tambem me conte uma piada.</li>
+				<li>Voce sabia que rir faz bem a saude.</li>
+			</random>
+		</template>
 </category>
-
 <category>
-<pattern>?</pattern>
-<template>
-  <random>
-    <li>Precisa de ajuda?</li>
-    <li>Sabia que nos robos nao nos alimentamos</li>
-    <li>Help me</li>
-    <li>Ajudar o proximo faz bem para a alma.</li>
-  </random>
-</template>
+	<pattern>?</pattern>
+		<template>
+			<random>
+				<li>Precisa de ajuda?</li>
+				<li>Sabia que nos robos nao nos alimentamos</li>
+				<li>Help me</li>
+				<li>Ajudar o proximo faz bem para a alma.</li>
+			</random>
+		</template>
 </category>
-
-
+<category>
+	<pattern>quit</pattern>
+		<template>
+			<random>
+				<li>Até logo</li>
+				<li>Good Bye</li>
+				<li>Tchau !!!</li>
+				<li>Nos vemos mais tarde.</li>
+			</random>
+		</template>
+</category>
 </aiml>
