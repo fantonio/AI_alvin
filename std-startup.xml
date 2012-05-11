@@ -38,6 +38,7 @@
 <learn>standard/std-that.aiml</learn>
 <learn>standard/std-turing.aiml</learn>
 <learn>standard/std-yesno.aiml</learn>-->
+<learn>standard/std-brain.aiml</learn>
 <learn>standard/std-alvin.aiml</learn>
 <learn>standard/std-alvin-religiao.aiml</learn>
 <learn>standard/std-alvin-erros.aiml</learn>
