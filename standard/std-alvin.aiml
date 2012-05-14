@@ -299,8 +299,7 @@
 		<li>Esse cara merece cadeira elétrica!</li>
 		</random></template>
 	</category>
-	</category>
-	<category>
+		<category>
 		<pattern>TEMPO</pattern>
 		<template>O tempo é tudo a todo momento e em nenhum lugar.</template>
 	</category>
