@@ -18,14 +18,13 @@ import pyttsx
 import normalize
 
 Esto usando a biblioteca pyttsx e ela usa drive de audio diferente em cada sistema;
-  No Windows pyttsx usa o driver SAPI5.
-  No Linux pyttsx usa o driver eSpeak.
-	Para instalar a biblioteca pyttsx no Linux baixe o arquivo do site oficial: http://pypi.python.org/pypi/pyttsx
-	A biblioteca normalize é uma classe existente da classe principal: unicodedata que é instalada por padrão ao instalarmos o python no linux.
-  No Mac IOs pyttsx esta usando o driver padrão.
+  item 1: No Windows pyttsx usa o driver SAPI5.
+  item 2: No Linux pyttsx usa o driver eSpeak.
+		Para instalar a biblioteca pyttsx no Linux baixe o arquivo do site oficial: http://pypi.python.org/pypi/pyttsx
+		A biblioteca normalize é uma classe existente da classe principal: unicodedata que é instalada por padrão ao instalarmos o python no linux.
+  item 3: No Mac IOs pyttsx esta usando o driver padrão.
 
-Após instalar as bibliotecas, baixar e descompactar o programa, execute:
-------------------------------------------------------------------------
+### Após instalar as bibliotecas, baixar e descompactar o programa, execute:
 
 python alvin.py
 
