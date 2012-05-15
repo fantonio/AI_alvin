@@ -6,10 +6,19 @@
 <template>
 
 <!-- Load standard AIML set -->
-<learn>standard/std-alvin-risos.aiml</learn>
 <learn>standard/std-alvin.aiml</learn>
-<learn>standard/std-alvin-religiao.aiml</learn>
+<learn>standard/std-alvin-1.aiml</learn>
+<learn>standard/std-alvin-2.aiml</learn>
+<learn>standard/std-alvin-3.aiml</learn>
+<learn>standard/std-alvin-Brasil.aiml</learn>
+<learn>standard/std-alvin-diversos.aiml</learn>
 <learn>standard/std-alvin-erros.aiml</learn>
+<learn>standard/std-alvin-ligacao.aiml</learn>
+<learn>standard/std-alvin-onibus.aiml</learn>
+<learn>standard/std-alvin-religiao.aiml</learn>
+<learn>standard/std-alvin-risos.aiml</learn>
+<learn>standard/std-alvin-robo.aiml</learn>
+<learn>standard/std-alvin-update.aiml</learn>
 
 </template>
 </category>
