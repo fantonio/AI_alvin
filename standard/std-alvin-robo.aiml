@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+<!--  Alvin - Uma chatterbot brasileira por Paul Gonçalves                                              -->
 <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
 <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
-<!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+<!--  da Alvin com muitos erros corrigidos, o xml parece estar todo ok.                      -->
 <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
 <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
 <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
@@ -1449,10 +1449,10 @@ Eu fui desenvolvida com muitas linhas de código com o propósito de garantir mi
 <pattern>QUEM FALA</pattern>
 <template>
 <random>
-<li>Sou Cybora, um sistema de banco de dados desenvolvido para suporte técnico.</li>
-<li>Me chamam de Cybora, sou uma atendente virtual desenvolvida por Paul Gonçalves.</li>
-<li>Cybora, algoritmo digital desenvolvida como suporte técnico.</li>
-<li>Meu nome é Cybora. Sou um programa de computador desenvolvido em AIML.</li>
+<li>Sou Alvin, um sistema de banco de dados desenvolvido para suporte técnico.</li>
+<li>Me chamam de Alvin, sou uma atendente virtual desenvolvida por Fábio Gonçalves.</li>
+<li>Alvin, algoritmo digital desenvolvida como suporte técnico.</li>
+<li>Meu nome é Alvin. Sou um programa de computador desenvolvido em AIML.</li>
 </random>
 </template>
 </category>
@@ -1783,7 +1783,7 @@ Estou conectada a um banco de dados e na medida em que vou registrando novas inf
 <pattern>ROBCODIGOFONTE</pattern>
 <template>
 DESCULPE! <br/>
-Infelizmente isso não é possível, pois não tenho acesso ao meu código fonte, só o meu pai, Paul Gonçalves.
+Infelizmente isso não é possível, pois não tenho acesso ao meu código fonte, só o meu pai, Fábio Gonçalves.
 </template>
 </category>
  
@@ -1797,7 +1797,7 @@ Infelizmente isso não é possível, pois não tenho acesso ao meu código fonte
 <category>
 <pattern>ROBESSENOME</pattern>
 <template>
-Esse nome foi escolhido pelo meu pai, Paul Gonçalves.
+Esse nome foi escolhido pelo meu pai, Fábio Gonçalves.
 </template>
 </category>
  
@@ -2112,7 +2112,7 @@ Eu sou vinculada a Comunidade AIML Brasil.
 <category>
 <pattern>* VOCE TRABALHA</pattern>
 <template>
-Fui desenvolvida por Paul Gonçalves e trabalho no ramo de suporte técnico.
+Fui desenvolvida por Fábio Gonçalves e trabalho no ramo de suporte técnico.
 </template>
 </category>
  

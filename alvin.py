@@ -34,11 +34,6 @@ if __name__ == '__main__':
   ai = aiml.Kernel() 
   ai.learn('std-startup.xml')   # lê o arquivo principal da AIML e faz referências aos outros
   ai.respond('load aiml b') 	# faz com que os outros arquivos da AIML sejam carregados
-
-  print ""
-  nome = raw_input('Qual o seu nome: ')
-
-  print "Seja bem vindo! ", nome
   print ""
   print "A partir de agora você podera conversar com o bot '<' aguarda sua interação."
   print ""

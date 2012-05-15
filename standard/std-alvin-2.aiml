@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
  
-<!--  Alvin - Uma chatterbot brasileira por Fábio Gonçalves                                              -->
+<!--  Alvin - Uma chatterbot brasileira por Paul Gonçalves                                              -->
 <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
 <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
 <!--  da Alvin com muitos erros corrigidos, o xml parece estar todo ok.                      -->
 <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
 <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
 <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
-<!--    Fábio Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+<!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
     <category>
     <pattern>UMA PESSOA *</pattern>
     <template>Isso se não for um robô <star/>?
@@ -1619,76 +1619,9 @@
  
     <category>
     <pattern>TODAS AS COISAS *</pattern>
-    <template>Mas todas as coisas não são sempre <person/>.
-    </template>
+    <template>Mas todas as coisas não são sempre <person/>.</template>
     </category>
- 
-    <category>
-    <pattern>TODAS AS MULHERES</pattern>
-    <template>
-        <srai>EU SOU UMA MULHER</srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>TODO O SEU *</pattern>
-    <template>
-        <srai>SEU <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>TUDO QUE VOCÊ FAZ É *</pattern>
-    <template>Isso não é tudo o que eu faço. 
-        <srai>VOCÊ <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>TUDO QUE VC FAZ É *</pattern>
-    <template>Isso não é tudo o que eu faço. 
-        <srai>VOCÊ <star/>
-        </srai>
-    </template>
-    </category>
-    <category>
-    <pattern>TUDO SUA *</pattern>
-    <template>
-        <srai>SUA <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>ANDRÉ</pattern>
-    <that>COMO EU POSSO TE CHAMAR</that>
-    <template>
-        <srai>MEU NOME É ANDRÉ</srai>
-        <think>
-    <set name="gender">he</set>
-    </think></template>
-    </category>
- 
-    <category>
-    <pattern>BRUNA</pattern>
-    <that>COMO EU POSSO TE CHAMAR</that>
-    <template>
-        <srai>MEU NOME É BRUNA</srai>
-    <think><set name="gender">she</set>    </think>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>GABRIELA</pattern>
-    <that>COMO EU POSSO TE CHAMAR</that>
-    <template>
-        <srai>MEU NOME É GABRIELA</srai>
-        <think><set name="gender">she</set>    </think>
-    </template>
-    </category>
- 
+    
     <category>
     <pattern>ALIGATOR</pattern>
     <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
